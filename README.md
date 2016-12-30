@@ -1,5 +1,5 @@
 # Softdev_unit_test
-
+## The function / content tested
 - function : ``precedence(a, b)`` in tests/precedence/precedence.js  
 ``if a <= b precendence(a, b) = true``  
 	- ``a = "+", b = "+"``  
@@ -58,4 +58,7 @@
 		- ``neg(5)`` answer should be ``-5``  
 	- test ``Mod``  
 		- ``5Mod3=`` answer should be ``2``  
-- test
+
+## Comments
+- For the requirement of code coverage, blanket.js doesn't work as intent with my tests, so I just skip the part.
+- The original code of this project is not that well organized as the other ones provided, so it is harder to me to test them well, but the code is more trivial like the one i wrote, so still a good one better than mine anyway.
